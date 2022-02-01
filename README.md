@@ -45,8 +45,6 @@ Right click on the project `Build Configurations -> Set Active -> Release`
 
 Select generated project and modify `Properties -> C/C++ Build -> Settings -> MCU Settings`
 
-Change `Runtime library` to `Standard C`, and check `Use float with printf from newlin-nano (-u _printf_float)`
-
 Flash the project using `Run As -> STM32 Cortex-M C\C++ Application`
 
 
@@ -83,7 +81,5 @@ Apply following settings:
 Generate the project and open in STM32CubeIDE.
 
 Select generated project and modify `Properties -> C/C++ Build -> Settings -> MCU Settings`
-
-Change `Runtime library` to `Standard C`, and check `Use float with printf from newlin-nano (-u _printf_float)`
 
 Flash the project using `Run As -> STM32 Cortex-M C\C++ Application`
